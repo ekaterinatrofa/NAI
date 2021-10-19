@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1634311413 source:c:\users\pc\documents\3 rok\nai\01\02\main.cpp
+	<iostream>
+	<math.h>
+	<random>
+	<vector>
+	<functional>
+	<iomanip>
+
+1634588197 source:c:\users\pc\documents\3 rok\nai\02\main.cpp
+	<iostream>
+	<math.h>
+	<random>
+	<vector>
+	<functional>
+	<iomanip>
+

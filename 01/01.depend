@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1634055895 source:c:\users\pc\documents\3 rok\nai\01\01\main.cpp
+	<iostream>
+
+1634312781 source:c:\users\pc\documents\3 rok\nai\01\main.cpp
+	<iostream>
+	<math.h>
+
