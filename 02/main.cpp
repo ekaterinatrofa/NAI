@@ -30,17 +30,31 @@ vector<double> hill_climbing(function<double(vector<double>)> f, function<bool(v
 
     if (!f_domain(p)) throw std::invalid_argument("The p0 point must be in domain");
 
+    //iterations of algorithm
     for (int i = 0; i < iterations; i++)
     {
+
+        //candidate
         auto p2 = p;
 
-        p2[distrib(gen)] += distrib_r(gen);
-        double y2 = f(p2);
-        if (y2 < f(p))
-        {
-            p = p2;
+        if(!f_domain(p2))throw std::invalid_argument("The p0 point must be in domain");
+
+            p2[distrib(gen)] += distrib_r(gen);
+
+            //evaluate candidate point
+            double y2 = f(p2);
+
+            //check if keep new point
+            if (y2 < f(p))
+            {
+                //store new point
+                p = p2;
 //            cout << p << " " << f(p) << endl;
-        }
+            }
+
+
+
+
     }
     return p;
 }
