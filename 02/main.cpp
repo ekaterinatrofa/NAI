@@ -37,10 +37,12 @@ vector<double> hill_climbing(function<double(vector<double>)> f, function<bool(v
         //candidate
         auto p2 = p;
 
-        if(!f_domain(p2))throw std::invalid_argument("The p0 point must be in domain");
 
-            p2[distrib(gen)] += distrib_r(gen);
 
+        p2[distrib(gen)] += distrib_r(gen);
+
+        if(!f_domain(p2))
+        {
             //evaluate candidate point
             double y2 = f(p2);
 
@@ -51,6 +53,12 @@ vector<double> hill_climbing(function<double(vector<double>)> f, function<bool(v
                 p = p2;
 //            cout << p << " " << f(p) << endl;
             }
+        }
+        else
+        {
+            cout << "The current p2 point must be in domain" << endl;
+        }
+
 
 
 
