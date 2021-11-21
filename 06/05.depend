@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1636541103 source:c:\users\pc\documents\3 rok\nai\05\main.cpp
+	<opencv4/opencv2/opencv.hpp>
+	<opencv4/opencv2/imgproc/imgproc.hpp>
+	<opencv4/opencv2/highgui/highgui_c.h>
+	<iostream>
+
