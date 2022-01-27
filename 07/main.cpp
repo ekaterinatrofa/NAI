@@ -111,6 +111,7 @@ int main( int argc, char** argv )
             // Select ROI
             cv::Rect2d r = cv::selectROI(window_detection_name, frame_HSV);
             cv::imwrite("nai.jpg", cv::Mat(frame_HSV, r));
+
         }
         if (key == 'q' || key == 27)
         {

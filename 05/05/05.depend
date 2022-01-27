@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1640121081 source:c:\users\pc\documents\3 rok\nai\05\05\ga.cpp
+	<vector>
+	<cmath>
+	<iostream>
+	"ga.hpp"
+
+1640117916 c:\users\pc\documents\3 rok\nai\05\05\ga.hpp
+	<vector>
+
+1640121112 source:c:\users\pc\documents\3 rok\nai\05\05\main.cpp
+	<vector>
+	<random>
+	<functional>
+	<iostream>
+	<algorithm>
+	<numeric>
+	<math.h>
+	"ga.hpp"
+

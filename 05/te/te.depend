@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1643143034 source:c:\users\pc\documents\3 rok\nai\05\te\main.cpp
+	<algorithm>
+	<functional>
+	<iostream>
+	<memory>
+	<random>
+	<vector>
+

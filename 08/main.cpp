@@ -112,7 +112,6 @@ int main( int argc, char** argv )
 
 
 
-                // Check if objects are on the same level (with error margin)
                 if((y[0] < y[1] + 50) && (y[0] > y[1] - 50))
                     cv::line(frame, {x[0], y[0]}, {x[1], y[1]}, {255, 0, 0, 255}, 3);
             }
