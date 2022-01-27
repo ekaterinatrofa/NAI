@@ -1,22 +1,26 @@
 # depslib dependency file v1.0
-1634924095 source:c:\users\pc\documents\3 rok\nai\03\03\lab_03.cpp
-	"lab_03.h"
-	<vector>
-	<functional>
-	<iostream>
-	<string>
-	<random>
-
-1634923392 c:\users\pc\documents\3 rok\nai\03\03\lab_03.h
-	<vector>
-	<functional>
-
-1634924456 source:c:\users\pc\documents\3 rok\nai\03\03\main.cpp
+1635337524 source:c:\users\pc\documents\3 rok\nai\03_01\03\main.cpp
 	<iostream>
 	<math.h>
 	<random>
 	<vector>
 	<functional>
 	<iomanip>
-	"lab_03.h"
+	<map>
+	"lab.h"
+
+1635326832 c:\users\pc\documents\3 rok\nai\03_01\03\lab.h
+	<vector>
+	<functional>
+	<iostream>
+
+1635349576 source:c:\users\pc\documents\3 rok\nai\03_01\03\lab.cpp
+	"lab.h"
+	<vector>
+	<functional>
+	<iostream>
+	<string>
+	<random>
+	<iomanip>
+	<fstream>
 
